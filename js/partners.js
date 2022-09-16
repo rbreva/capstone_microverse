@@ -22,14 +22,10 @@ const partnersData = [
 ];
 
 for (let i = 0; i < partnersData.length; i += 1) {
-
   const partnerLi = document.createElement('li');
-
   const liImg = document.createElement('img');
   liImg.src = `images/svg/partners/${partnersData[i].image}`;
   liImg.alt = `${partnersData[i].name}`;
-
   partnerLi.appendChild(liImg);
-  
   document.querySelector('.partner_list').appendChild(partnerLi);
 }

@@ -23,11 +23,10 @@ const programData = [
     name: 'CC Ignite',
     icon: 'ignite.svg',
     content: 'Get opprtunities to network with CC affiliates around the world, also after the summit.',
-  }
+  },
 ];
 
 for (let i = 0; i < programData.length; i += 1) {
-
   const card = document.createElement('div');
   card.classList.add('card');
 
@@ -51,5 +50,4 @@ for (let i = 0; i < programData.length; i += 1) {
   card.appendChild(cardp);
 
   document.querySelector('.cards').appendChild(card);
-
 }

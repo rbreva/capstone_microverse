@@ -4,7 +4,7 @@
   --dark: #272a31;
   --orange: #ec5242;
   --grey: #d3d3d3;
-  --light-grey: #F5F5F5;
+  --light-grey: #f5f5f5;
   --white: #fff;
   --principalFont: 'Lato', sans-serif;
 }
@@ -64,18 +64,18 @@ body {
   height: 100vh;
 }
 
-.container{
+.container {
   width: 100%;
   flex: 1;
 }
 
 @media (min-width: 768px) {
-  .container{
-    margin-top:10rem;
+  .container {
+    margin-top: 10rem;
   }
 }
 
-/*---------gentitlle-------*/
+/* ---------gentitlle------- */
 
 .gen__title {
   width: 100%;
@@ -102,9 +102,9 @@ body {
   color: var(--dark);
 }
 
-/*--------Header-------*/
+/* --------Header------- */
 
-header{
+header {
   position: fixed;
   width: 100%;
 }
@@ -142,7 +142,7 @@ header{
   background-color: #ffffff0f;
 }
 
-.ham_menu img{
+.ham_menu img {
   width: 5rem;
 }
 
@@ -179,7 +179,7 @@ header{
   flex-direction: column;
   gap: 4rem;
   font-size: 1.8rem;
-  border-radius: 0rem 1rem 1rem 0rem;
+  border-radius: 0 1rem 1rem 0;
   transition-duration: 0.5s;
 }
 
@@ -194,7 +194,6 @@ header{
 }
 
 @media (min-width: 768px) {
-
   .top__bar {
     position: initial;
   }
@@ -206,7 +205,7 @@ header{
   .principal {
     margin: auto;
     background-color: var(--white);
-    box-shadow: 0px 3px 5px 0px #272a31e6;
+    box-shadow: 0 3px 5px 0 #272a31e6;
   }
 
   .logo {
@@ -232,10 +231,9 @@ header{
     font-size: 1.4rem;
     align-items: center;
   }
-
 }
 
-/*---------Hero------------*/
+/* ---------Hero------------ */
 
 .hero {
   background-image: url('../images/back_mob.jpg');
@@ -249,7 +247,7 @@ header{
 
 .hero__desc {
   background-color: var(--light-grey);
-  border: .4rem solid var(--white);
+  border: 0.4rem solid var(--white);
   padding: 1.5rem;
   line-height: 2.2rem;
   margin-top: 2.4rem;
@@ -264,12 +262,11 @@ header{
 .hero__h3 {
   font-weight: normal;
   font-size: 1.2rem;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 6rem;
 }
 
 @media (min-width: 768px) {
-
   .hero {
     background-image: url('../images/back.jpg');
     padding: 3rem;
@@ -280,7 +277,7 @@ header{
     margin: auto;
   }
 
-  .hero__img{
+  .hero__img {
     max-width: 79rem;
   }
 
@@ -289,7 +286,7 @@ header{
   }
 }
 
-/*---------Hero_about------------*/
+/* ---------Hero_about------------ */
 
 .hero_about {
   background-image: url('../images/back_mob.jpg');
@@ -303,7 +300,7 @@ header{
 
 .hero__desc_about {
   background-color: var(--light-grey);
-  border: .4rem solid var(--white);
+  border: 0.4rem solid var(--white);
   padding: 1.5rem;
   line-height: 2.2rem;
   margin-top: 2.4rem;
@@ -325,7 +322,6 @@ header{
 }
 
 @media (min-width: 768px) {
-
   .hero_about {
     background-image: url('../images/back.jpg');
     padding: 3rem;
@@ -355,10 +351,10 @@ header{
 
   .hero__h3_about {
     font-size: 1.4rem;
-}
+  }
 }
 
-/*-------program----------*/
+/* -------program---------- */
 
 .program {
   padding-top: 5rem;
@@ -366,7 +362,7 @@ header{
   padding-bottom: 2rem;
 }
 
-/*-----cards------*/
+/* -----cards------ */
 
 .cards {
   display: flex;
@@ -410,7 +406,7 @@ header{
   justify-content: center;
 }
 
-.join a{
+.join a {
   color: var(--white);
   font-size: 1.5rem;
   font-weight: bold;
@@ -452,13 +448,12 @@ header{
     font-size: 1.6rem;
   }
 
-  .join{
+  .join {
     display: none;
   }
-
 }
 
-/*------ speakers -------*/
+/* ------ speakers ------- */
 
 .featured_speakers {
   padding-top: 5rem;
@@ -493,7 +488,7 @@ header{
   background-color: var(--grey);
   height: 0.2rem;
   width: 3rem;
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
 
 .speaker__h3 {
@@ -503,7 +498,7 @@ header{
   margin-top: 0.3rem;
 }
 
-.more_speakers{
+.more_speakers {
   padding: 1.5rem;
 }
 
@@ -516,12 +511,12 @@ header{
   padding: 2.4rem;
 }
 
-.more_btn img{
+.more_btn img {
   width: 1.4rem;
 }
 
 @media (min-width: 768px) {
-  .speakers{
+  .speakers {
     max-width: 110rem;
     margin: auto;
     display: flex;
@@ -534,12 +529,12 @@ header{
     width: calc(50% - 1rem);
   }
 
-  .more_speakers{
+  .more_speakers {
     display: none;
   }
 }
 
-/*-------becreative------*/
+/* -------becreative------ */
 
 .becreative {
   padding: 2rem;
@@ -570,7 +565,7 @@ header{
   }
 }
 
-/*-------pasttech-----*/
+/* -------pasttech----- */
 
 .pasttech {
   margin-top: 8rem;
@@ -596,7 +591,7 @@ header{
   }
 }
 
-/*------ footer ------*/
+/* ------ footer ------ */
 
 footer {
   width: 100%;
@@ -614,8 +609,8 @@ footer {
   align-items: center;
 }
 
-.partner_list img{
-  width: 10rem
+.partner_list img {
+  width: 10rem;
 }
 
 .rights {
@@ -638,7 +633,5 @@ footer {
     margin: 4rem auto;
     flex-direction: row;
     align-items: center;
+  }
 }
-
-}
-

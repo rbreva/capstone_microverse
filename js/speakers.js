@@ -38,7 +38,6 @@ const speakersData = [
 ];
 
 for (let i = 0; i < speakersData.length; i += 1) {
-
   const speaker = document.createElement('div');
   speaker.classList.add('speaker');
 
@@ -76,5 +75,4 @@ for (let i = 0; i < speakersData.length; i += 1) {
   speaker.appendChild(speakerContent);
 
   document.querySelector('.speakers').appendChild(speaker);
-
 }
