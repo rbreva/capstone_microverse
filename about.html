@@ -14,8 +14,8 @@
 
 <header>
 
-  <div class="top-bar">
-    <ul>
+  <div class="top__bar">
+    <ul class="top__ul">
       <li class="tb_img"><img src="images/svg/social/facebook-icon.svg" alt="Facebook"></li>
       <li class="tb_img"><img src="images/svg/social/tweeter-icon.svg" alt="Twitter"></li>
       <li class="tb_lnk"><a href="#">English</a></li>
@@ -25,44 +25,77 @@
   </div>
 
   <div class="principal">
-    <div class="ham_menu"><img src="images/svg/menu.svg" alt="Facebook"></div>
-    <div class="logo hidden"><a href="index.html"><img src="images/svg/logo.svg" alt="Logo"></a></div>
-    <nav class="menu">
-      <ul>
-        <li class="lnk"><a href="about.html">About</a></li>
-        <li class="in_lnk"><a href="#">Program</a></li>
-        <li class="in_lnk"><a href="#">Join</a></li>
-        <li class="in_lnk"><a href="#">Sponsor</a></li>
-        <li class="in_lnk"><a href="#">News</a></li>
-        <li class="sp_lnk"><a href="#">CC Campaign</a></li>
-      </ul>
-    </nav>
+    <div class="ham_menu">
+      <img class="open_menu" src="images/svg/menu.svg" alt="open menu">
+      <img class="close_menu" src="images/svg/menuret.svg" alt="close menu">
+    </div>
+    <div class="menu">
+      <div class="logo"><a href="index.html"><img src="images/svg/logo.svg" alt="Logo"></a></div>
+      <nav>
+        <ul class="menu_bar">
+          <li class="lnk"><a href="index.html">Home</a></li>
+          <li class="in_lnk"><a href="#becreative">Be Creative</a></li>
+          <li class="in_lnk"><a href="#pasttech">Past Tech</a></li>
+          <li class="sp_lnk"><a href="#">CC Campaign</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 
 </header> 
 
 <div class="container">
 
-  
+  <div class="hero_about">
+    <div class="hero__container_about">
+      <div class="hero__img_about"><img src="images/banner_about.png" alt="Banner"></div>
+      <p class="hero__desc_about">The Tech Meet brings together the community of experts, academics and activists who comprise the Be Creative  affiliate network in a different country every two years.<br>
+        This year, we hope to expand our invitations list including organizations and individuals who want to work with us on shared projects that advance the cause of the commons, free culture and open kwonledge.<br>
+        So if you’re active and engaged in the world of open content and knowledge - free software advocates, Wikipedians, Open Knowledge, galleries, libraries, museums, archives, goverments and foundations, lawyers, and activist - we hope you’ll consider joining us this year to build, a stronger, more vibrant commons together.</p>
+      <h2 class="hero__h2_about">Please contact us per Email for any further questions about Tech Meet Congress 2022!</h2>
+      <h3 class="hero__h3_about">techmeet2022@techmeet.org</h3>
+    </div>
+  </div>
+
+  <div class="becreative" id="becreative">
+    <div class="gen__title">
+      <h2 class="gen__h2 dark">Be Creative 2022 Logos</h2>
+      <div class="gen__line"></div>
+    </div>
+    <p class="becreative__p">
+      The logo of Tech Meet 2022 was decided through the logo competition from 8. June to 7. July.<br>
+      After online public voting and Selection Committe’s judging process, the logo from Naresh agrawal won the prize.<br>
+      After consultation with Mr Agraval we optimized the prize-winning-logo for this year’s summit as following:
+    </p>
+    <div class="becreative__img">
+      <img src="images/svg/logo.svg">
+    </div>
+  </div>
+
+  <div class="pasttech" id="pasttech">
+    <div class="gen__title">
+      <h2 class="gen__h2 dark">See the past Tech Meet Congress</h2>
+      <div class="gen__line"></div>
+    </div>
+    <p class="pasttech__p">Take a look at the last two Tech Meet Congress wich took place in Buenos Aires and in Warsow</p>
+    <div class="pasttech__past">
+      <div class="pasttech__card"><img src="images/past/about02.jpg"></div>
+      <div class="pasttech__card"><img src="images/past/about01.jpg"></div>
+    </div>
+  </div>
 
 </div>
 
 <footer>
 
-  <div class="partners">
+  <div class="partners" id="Partners">
 
     <div class="gen__title">
       <h2 class="gen__h2 grey">Partners</h2>
       <div class="gen__line"></div>
     </div>
 
-    <ul class="partner_list">
-      <li><img src="images/svg/partners/mozilla.svg" alt="mozilla"></li>
-      <li><img src="images/svg/partners/mozilla.svg" alt="mozilla"></li>
-      <li><img src="images/svg/partners/mozilla.svg" alt="mozilla"></li>
-      <li><img src="images/svg/partners/mozilla.svg" alt="mozilla"></li>
-      <li><img src="images/svg/partners/mozilla.svg" alt="mozilla"></li>
-    </ul>
+    <ul class="partner_list"></ul>
 
   </div>
 
@@ -72,5 +105,7 @@
   </div>
 
 </footer>
+<script src="js/menu.js"></script>
+<script src="js/partners.js"></script>
 </body>
 </html>
